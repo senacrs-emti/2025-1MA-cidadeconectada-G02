@@ -1,0 +1,89 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+main aside {
+    width: 24%;
+    height: 600px;
+    background-color:  #FFAE2A;
+    float: inline-end;
+    font-family: sans-serif;
+}
+
+main aside img {
+    height: 75px;
+    border-radius: 100px;
+    margin: 25px;
+    float: inline-start;
+}
+
+h1 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+}
+
+hr {
+    margin-top: 50px;
+}
+
+#searchbar {
+    width: 83%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin: auto;
+    padding-left: 10px;
+    margin-left: 33px;
+    margin-top: 25px;
+}
+
+main aside #fav {
+    width: 83%;
+    height: 25px;
+    margin-left: 35px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+main aside div {
+    width: 33%;
+    height: 40px;
+    float:left;
+    background-color: #ffffff;
+    margin-top: 25px;
+    margin-left: 38px;
+    align-content: center;
+    display: block;
+    border-radius: 10px;
+}
+
+
+main aside #particular{
+    margin-left: 48px;
+}
+
+main aside label {
+    margin-left: 5px;
+    color: #515151;
+}
+
+main aside #marcacao {
+    margin-left: 8px;
+}
+
+main aside #nivelensino {
+    width: 83%;
+    margin: auto;
+    padding-left: 70px;
+    margin-top: 50px;
+    margin-left: 33px;
+    height: 40px;
+     
+}
+
