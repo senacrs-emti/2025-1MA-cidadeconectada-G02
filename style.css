@@ -11,10 +11,24 @@ nav {
     align-content: center;
 }
 #iconecomesch{
-    height:80px;
-    width:500px;
-    margin: 10px 0 0 10px;
+    height:70px;
+    width:450px;
+    margin: 15px 0 0 10px;
+}
+.botaonav{
+    height:70px;
+    width:70px;
+    background-color: #2441ff;
+    background-repeat: no-repeat;
+    background-size: 55px 55px;
+    border:none;
 }
 #botaoinicio{
-    
+    background-image: url(./inicioicone.png);
+}
+#botaomapa{
+    background-image: url(./mapaicone.png);
+}
+#botaocontatos{
+    background-image: url(./contatosicone.png);
 }
