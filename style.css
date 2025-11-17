@@ -9,11 +9,12 @@ nav {
     height: 100px;
     display:flex;
     align-content: center;
+    overflow:hidden;
 }
 #iconecomesch{
     height:70px;
     width:450px;
-    margin: 15px 0 0 10px;
+    margin: 10px 0 0 5px;
 }
 .botaonav{
     height:70px;
@@ -25,10 +26,36 @@ nav {
 }
 #botaoinicio{
     background-image: url(./inicioicone.png);
+    margin: 18px 0px 0px 300px;
 }
 #botaomapa{
     background-image: url(./mapaicone.png);
+    margin-left:50px;
 }
 #botaocontatos{
     background-image: url(./contatosicone.png);
+    margin-left:50px;
+}
+#botaocadastro{
+    background-color:#ffae2a;
+    border: none;
+    color:white;
+    font-size:20px;
+    width:160px;
+    height:60px;
+    border-radius: 8px;
+    float: right;
+    margin: 18px 0px 0px 60px;
+}
+#botaoinicio:hover{
+    background-image: url(./inicioiconehover.png);
+}
+#botaomapa:hover{
+    background-image: url(./mapaiconehover.png);
+}
+#botaocontatos:hover{
+    background-image: url(./contatosiconehover.png);
+}
+#botaocadastro:hover{
+    background-color:#b87b1a;
 }
