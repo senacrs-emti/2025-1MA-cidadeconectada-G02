@@ -69,5 +69,6 @@ button:hover{
 }
 
 ul{
-    
+    list-style: none;
+    color: aliceblue;
 }
