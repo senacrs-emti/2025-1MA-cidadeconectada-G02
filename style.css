@@ -7,7 +7,7 @@ body{
     width: 99%;
 }
 
-div{
+body div{
     border-radius: 15px;
     display: block;
     height: 463.5px;
@@ -21,6 +21,8 @@ div h1{
     padding: 40px 0px 30px 55px;
     font-size: 25px;
 }
+
+
 
 #text{
     border: none;
