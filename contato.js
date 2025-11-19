@@ -9,9 +9,9 @@ document.getElementById("button").addEventListener("click", () => {
     const vMensagem = mensagem.value.trim();
 
     if (vNome === "" || vEmail === "" || vMensagem === "") {
-        alert("Não há mensagem");
+        alert("Incompleto");
     } else {
-        alert("Enviado");
+        alert("Enviado!");
 
         nome.value = "";
         email.value = "";
