@@ -1,0 +1,9 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#map {
+    width: 70%;
+    height: 600px;   
+}
