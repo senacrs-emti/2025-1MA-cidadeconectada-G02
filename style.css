@@ -6,7 +6,6 @@
 
 body{
     background-image: linear-gradient(120deg, #2441FF, #FFAE2A);
-    width: 99%;
 }
 
 body div{
@@ -15,7 +14,8 @@ body div{
     height: 463.5px;
     width: 300px;
     background-color: aliceblue;
-    margin: 125px 0px 25px 520px
+    margin: 125px 0px 25px 40%;
+    position: fixed;
 }
 
 div h1{
