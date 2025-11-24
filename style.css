@@ -5,5 +5,128 @@
 
 #map {
     width: 70%;
-    height: 100vh;   
+    height: 100vh;
+}
+
+main aside {
+    width: 20%;
+    height: 100vh;
+    background-color:  #FFAE2A;
+    float: right;
+    font-family: sans-serif;
+    margin-left: 48px;
+}
+
+main aside img {
+    height: 75px;
+    border-radius: 100px;
+    margin: 25px;
+    margin-right: 20px;
+    float: inline-start;
+}
+
+main aside h1 {
+    font-size: 29px;
+    margin-top: 35px;
+    margin-bottom: 11px;
+    color: #ffffff;
+}
+
+main aside p {
+    font-size: 13px;
+    color: #ffffff;
+}
+
+main aside hr {
+    margin-top: 40px;
+    border: 1px solid #ffffff;
+}
+
+#searchbar {
+    width: 83%;
+    height: 7.5%;
+    border: none;
+    margin: auto;
+    padding-left: 3%;
+    margin-left: 8.5%;
+    margin-top: 9%;
+    margin-bottom:10%;
+    border-radius: 7px;
+    font-size: 17px;
+    color: #b7b7b7;
+    font-style:oblique;
+}
+
+main aside #fav {
+    width: 83%;
+    height: 7.5%;
+    margin-left: 8.5%;
+    margin-top: 11%;
+    margin-bottom: 11%;
+    border-radius: 7px;
+    font-size: 17px;
+    outline: none;
+    color: #686767;
+}
+
+main aside div {
+    width: 33%;
+    height: 7.5%;
+    float:left;
+    background-color: #ffffff;
+    margin-top: 11%;
+    margin-bottom: 11%;
+    margin-left: 15.7%;
+    border-radius: 7px;
+    font-size: 12px;
+}
+
+#publica {
+    margin-left: 8.5%;
+}
+
+#publica input {
+    margin-top: 16.5px;
+    margin-right: 8px;
+}
+
+#particular input {
+    margin-top: 16.5px;
+    margin-right: 2px;
+}
+
+main aside label {
+    margin-left: px;
+    color: #686767;
+    padding-bottom: 200px;
+}
+
+main aside input {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#nivelensino {
+    font-size: 17px;
+    color: #686767;
+    width: 83%;
+    text-align: center;
+    margin-top: 8.5%;
+    margin-left: 8.5%;
+    height: 7.5%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 1px solid #686767;
+}
+
+#preco {
+    font-size: 17px;
+    color: #686767;
+    width: 83%;
+    text-align: center;
+    margin-left: 8.5%;
+    height: 7.5%; 
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    outline: none;
 }
