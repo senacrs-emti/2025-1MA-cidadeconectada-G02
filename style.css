@@ -82,23 +82,28 @@ main aside div {
     margin-top: 11%;
     margin-bottom: 11%;
     margin-left: 15.7%;
-    align-content: center;
-    display: block;
     border-radius: 7px;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 #publica {
     margin-left: 8.5%;
 }
 
-#publica label {
-    margin-left: 8.5%;
+#publica input {
+    margin-top: 16.5px;
+    margin-right: 8px;
+}
+
+#particular input {
+    margin-top: 16.5px;
+    margin-right: 2px;
 }
 
 main aside label {
     margin-left: px;
     color: #686767;
+    padding-bottom: 200px;
 }
 
 main aside input {
