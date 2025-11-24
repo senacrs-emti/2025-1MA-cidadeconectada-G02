@@ -1,11 +1,16 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
+    font-style: normal;
 }
 
 footer{
     color: white;
     background: #fdb519 100%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 footer ul div li{
@@ -22,17 +27,27 @@ footer ul div{
     justify-content: center;
     align-items: center;
     display: flex;
-    height: 160px;
+    height: 120px;
 }
 
 footer ul div img{
     width: auto;
     height:38px;
     float: left;
+    margin-right: -15px;
+    margin-left: 15px;
 }
 
 #contatos{
     list-style: disc;
+}
+
+#li {
+    margin-left: 20px;
+}
+
+#lw {
+    margin-left: 20px;
 }
 
 footer div a button{
@@ -40,7 +55,7 @@ footer div a button{
     height:87px;
     background-color: #475fff;
     border-radius: 14px;
-    margin-top: 90px;
+    margin-top: 65px;
     border: 2px;
     color: white;
 }
@@ -49,9 +64,4 @@ footer div{
     justify-content: center;
     align-items: center;
     display: flex;
-}
-
-footer h2{
-    font-family: sans-serif;
-    font-size: 28px;
 }
