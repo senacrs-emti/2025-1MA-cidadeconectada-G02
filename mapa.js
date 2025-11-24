@@ -1,3 +1,13 @@
+document.getElementById("botaoinicio").addEventListener("click", () => {
+    window.location.href = "index.html"; 
+});
+document.getElementById("botaomapa").addEventListener("click", () => {
+    window.location.href = "mapa.html"; 
+});
+document.getElementById("botaocontatos").addEventListener("click", () => {
+    window.location.href = "contatos.html"; 
+});
+
 function sucesso(position){
 	console.log(position.coords.latitude, position.coords.longitude);
 
@@ -20,3 +30,5 @@ function sucesso(position){
 }
 
 navigator.geolocation.getCurrentPosition(sucesso);
+
+
