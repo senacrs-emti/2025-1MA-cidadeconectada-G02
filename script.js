@@ -3,7 +3,7 @@ document.getElementById("contatos").addEventListener("click", () => {
 });
 
 document.getElementById("whatsapp").addEventListener("click", () => {
-    window.location.href = "https://www.youtube.com/shorts/EcsU-9OpNMY"; 
+    window.location.href = "https://wa.me/51999995555"; 
 });
 
 document.getElementById("instagram").addEventListener("click", () => {
