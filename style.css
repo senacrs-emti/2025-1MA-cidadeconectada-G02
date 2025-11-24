@@ -21,15 +21,6 @@ main aside img {
     float: inline-start;
 }
 
-#lapis {
-    height: 26px;
-    float: top, right;
-    position: absolute;
-    margin-left: 180px;
-    margin-top: 30px;
-    forced-color-adjust: #ffffff;
-}
-
 main aside h1 {
     font-size: 29px;
     margin-top: 35px;
