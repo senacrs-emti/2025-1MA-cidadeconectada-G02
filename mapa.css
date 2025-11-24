@@ -4,6 +4,47 @@
 }
 nav{
     width:100px;
-    height:600px;
+    height:100vh;
+    display:block;
+    float:left;
     background-color:#2441ff;
+}
+#iconecomescv{
+    height:280px;
+    width:85px;
+    display:block;
+    float:right;
+    margin-right:9px;
+}
+.botaonav{
+    height:60px;
+    width:60px;
+    background-color: #2441ff;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    border:none;
+    float:right;
+    margin-right:19px;
+}
+#botaoinicio{
+    background-image: url(img/inicioicone.png);
+    margin-top:160px;
+    
+}
+#botaomapa{
+    background-image: url(img/mapaicone.png);
+    margin-top:10px;
+}
+#botaocontatos{
+    background-image: url(img/contatosicone.png);
+    margin-top:10px;
+}
+#botaoinicio:hover{
+    background-image: url(img/inicioiconehover.png);
+}
+#botaomapa:hover{
+    background-image: url(img/mapaiconehover.png);
+}
+#botaocontatos:hover{
+    background-image: url(img/contatosiconehover.png);
 }
