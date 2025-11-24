@@ -6,6 +6,7 @@
 #map {
     width: 70%;
     height: 100vh;
+    float: left;
 }
 
 main aside {
