@@ -118,15 +118,15 @@ nav {
     border:none;
 }
 #botaoinicio{
-    background-image: url(imagens/inicioicone.png);
+    background-image: url(./inicioicone.png);
     margin: 18px 0px 0px 300px;
 }
 #botaomapa{
-    background-image: url(imagens/mapaicone.png);
+    background-image: url(./mapaicone.png);
     margin-left:50px;
 }
 #botaocontatos{
-    background-image: url(imagens/contatosicone.png);
+    background-image: url(./contatosicone.png);
     margin-left:50px;
 }
 #botaocadastro{
@@ -141,13 +141,13 @@ nav {
     margin: 18px 0px 0px 60px;
 }
 #botaoinicio:hover{
-    background-image: url(imagens/inicioiconehover.png);
+    background-image: url(./inicioiconehover.png);
 }
 #botaomapa:hover{
-    background-image: url(imagens/mapaiconehover.png);
+    background-image: url(./mapaiconehover.png);
 }
 #botaocontatos:hover{
-    background-image: url(imagens/contatosiconehover.png);
+    background-image: url(./contatosiconehover.png);
 }
 #botaocadastro:hover{
     background-color:#b87b1a;
