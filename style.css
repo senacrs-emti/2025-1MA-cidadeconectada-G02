@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+#cabeca {
+    width: 100%;
+    height: 400px;
+    background-image: url("img/horizontal-Quais-as-melhores-atividades-de-recepcao-aos-alunos-1024x536.jpg");
+}
+
+
+footer{
+    color: white;
+    background: #fdb519 100%;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul div li{
+    float: left;
+    margin-left: 25px;
+    list-style: none;
+    margin-top: 31px;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+
+footer ul div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 120px;
+}
+
+footer ul div img{
+    width: auto;
+    height:38px;
+    float: left;
+    margin-right: -15px;
+    margin-left: 15px;
+}
+
+#contatos{
+    list-style: disc;
+}
+
+#li {
+    margin-left: 20px;
+}
+
+#lw {
+    margin-left: 20px;
+}
+
+footer div a button{
+    width: 308px;
+    height:87px;
+    background-color: #0043fe;
+    border-radius: 14px;
+    margin-top: 65px;
+    border: 2px;
+    color: white;
+}
+
+footer div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+nav {
+    background-color: #0043fe;
+    width: 100%;
+    height: 100px;
+    display:flex;
+    align-content: center;
+    overflow:hidden;
+}
+
+#iconecomesch{
+    height:70px;
+    width:450px;
+    margin: 10px 0 0 5px;
+}
+
+.botaonav{
+    height:70px;
+    width:70px;
+    background-color: #0043fe;
+    background-repeat: no-repeat;
+    background-size: 55px 55px;
+    border:none;
+}
+
+#botaoinicio{
+    background-image: url(imagens/inicioicone.png);
+    margin: 18px 0px 0px 300px;
+}
+
+#botaomapa{
+    background-image: url(imagens/mapaicone.png);
+    margin-left:50px;
+}
+
+#botaocontatos{
+    background-image: url(imagens/contatosicone.png);
+    margin-left:50px;
+}
+
+#botaocadastro{
+    background-color:#ffae2a;
+    border: none;
+    color:white;
+    font-size:20px;
+    width:160px;
+    height:60px;
+    border-radius: 8px;
+    float: right;
+    margin: 18px 0px 0px 60px;
+}
+
+#botaoinicio:hover{
+    background-image: url(imagens/inicioiconehover.png);
+
+}
+#botaomapa:hover{
+    background-image: url(imagens/mapaiconehover.png);
+}
+
+#botaocontatos:hover{
+    background-image: url(imagens/contatosiconehover.png);
+}
+
+#botaocadastro:hover{
+    background-color:#b87b1a;
+}
+
+main h1 {
+    margin-left: 22.5%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    font-size: 50px;
+    font-weight: lighter;
+    color: #515151;
+}
+
+main p {
+    font-size: large;
+    width: 55%;
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+    font-weight: lighter;
+    color: #515151;
+    margin-bottom: 3%;
+}
+
+#p {
+    margin-bottom: 5%;
+}
