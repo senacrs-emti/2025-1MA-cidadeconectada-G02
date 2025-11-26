@@ -4,7 +4,7 @@
 }
 
 header nav{
-    width:100px;
+    width:10%;
     height:100vh;
     display:block;
     float:left;
@@ -15,7 +15,7 @@ header nav{
     width:85px;
     display:block;
     float:right;
-    margin-right:9px;
+    margin-right:25px;
 }
 .botaonav{
     height:60px;
@@ -25,11 +25,11 @@ header nav{
     background-size: 50px 50px;
     border:none;
     float:right;
-    margin-right:19px;
+    margin-right:35px;
 }
 #botaoinicio{
     background-image: url(img/inicioicone.png);
-    margin-top:160px;
+    margin-top:80px;
     
 }
 #botaomapa{
@@ -51,18 +51,17 @@ header nav{
 }
 
 #map {
-    width: 70%;
+    width: 60%;
     height: 100vh;
     float: left;
 }
 
 main aside {
-    width: 20%;
+    width: 30%;
     height: 100vh;
     background-color:  #FFAE2A;
-    float: right;
+    float: left;
     font-family: sans-serif;
-    margin-left: 48px;
 }
 
 main aside img {
@@ -109,7 +108,7 @@ main aside #fav {
     width: 83%;
     height: 7.5%;
     margin-left: 8.5%;
-    margin-top: 11%;
+    margin-top: 5%;
     margin-bottom: 11%;
     border-radius: 7px;
     font-size: 17px;
@@ -122,7 +121,6 @@ main aside div {
     height: 7.5%;
     float:left;
     background-color: #ffffff;
-    margin-top: 11%;
     margin-bottom: 11%;
     margin-left: 15.7%;
     border-radius: 7px;
@@ -159,9 +157,8 @@ main aside input {
     color: #686767;
     width: 83%;
     text-align: center;
-    margin-top: 8.5%;
     margin-left: 8.5%;
-    height: 7.5%;
+    height: 50px;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
     border-bottom: 1px solid #686767;
@@ -173,7 +170,7 @@ main aside input {
     width: 83%;
     text-align: center;
     margin-left: 8.5%;
-    height: 7.5%; 
+    height: 50px; 
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
     outline: none;
