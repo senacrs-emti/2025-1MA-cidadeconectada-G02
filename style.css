@@ -75,7 +75,7 @@ footer div{
 nav {
     background-color: #0043fe;
     width: 100%;
-    height: 100px;
+    height: 100vh;
     display:flex;
     align-content: center;
     overflow:hidden;

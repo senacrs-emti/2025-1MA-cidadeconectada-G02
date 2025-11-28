@@ -4,7 +4,7 @@
 }
 
 header nav{
-    width:10%;
+    width:7%;
     height:100vh;
     display:block;
     float:left;
@@ -51,7 +51,7 @@ header nav{
 }
 
 #map {
-    width: 60%;
+    width: 63%;
     height: 100vh;
     float: left;
 }
