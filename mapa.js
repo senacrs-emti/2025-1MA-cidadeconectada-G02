@@ -194,4 +194,38 @@ function sucesso(position){
 
 navigator.geolocation.getCurrentPosition(sucesso);
 
+const escolasnome = []
 
+escolasnome[0] = "Unidade principal do Colégio Farroupilha";
+escolasnome[1] = "Colégio Nossa Senhora do Bom Conselho";
+escolasnome[2] = "Colégio Marista Ipanema";
+escolasnome[3] = "Colégio Marista Assunção";
+escolasnome[4] = "Colégio Marista Champagnat"
+escolasnome[5] = "Colégio João XXIII";
+escolasnome[6] = "Colégio Monteiro Lobato";
+escolasnome[7] = "Colégio Lumiar Porto Alegre";
+escolasnome[8] = "Colégio Anchieta";
+escolasnome[9] = "Colégio Israelita Brasileiro";
+escolasnome[10] = "Colégio Leonardo da Vinci - Alfa";
+escolasnome[11] = "Colégio Leonardo da Vinci - Beta";
+escolasnome[12] = "Colégio João Paulo - Higienópolis";
+escolasnome[13] = "Colégio Don Luis Guanella";
+escolasnome[14] = "Colégio Universitário";
+escolasnome[15] = "Colégio Metodista Americano";
+escolasnome[16] = "Colégio La Salle Santo Antônio";
+escolasnome[17] = "Colégio Murialdo";
+escolasnome[18] = "Colégio Santa Teresa de Jesus";
+escolasnome[19] = "Colégio Província de São Pedro";
+escolasnome[20] = "Colégio Pastor Dohms - Unidade Higienópolis";
+escolasnome[21] = "Escola Estadual de Ensino Integral Euclides Da Cunha";
+escolasnome[22] = "Colégio Militar de Porto Alegre";
+escolasnome[23] = "Colégio Tiradentes da Brigada Militar de Porto Alegre";
+escolasnome[24] = "Escola Técnica Estadual Parobé";
+escolasnome[25] = "Escola Estadual de Ensino Fundamental Ildefonso Gomes";
+escolasnome[26] = "Escola Estadual de Ensino Fundamental Olegário Mariano";
+escolasnome[27] = "Colégio Marista Rosário";
+escolasnome[28] = "Colégio Vicentino Santa Cecília";
+escolasnome[29] = "Colégio Nossa Senhora do Brasil";
+escolasnome[30] = "Instituto de Educação General Flores da Cunha";
+escolasnome[31] = "Escola de Ensino Médio Senac Distrito Criativo";
+escolasnome[32] = "Colégio AGIR";
