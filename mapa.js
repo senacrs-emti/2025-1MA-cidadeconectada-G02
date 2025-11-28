@@ -18,6 +18,17 @@ function sucesso(position){
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(map);
 
+    var usericon = L.icon({
+        iconUrl: 'img/user-location.png',
+        shadowUrl: 'img/user-location.png',
+
+        iconSize:     [32,32],
+        shadowSize:   [32, 32],
+        iconAnchor:   [5, 30],
+        shadowAnchor: [5, 30],
+        popupAnchor:  [12, -20] 
+    })
+    
     var tecicon = L.icon({
         iconUrl: 'img/robo.png',
         shadowUrl: 'img/robo.png',
@@ -83,9 +94,6 @@ function sucesso(position){
 
     marker[2] = L.marker([-30.130351176291644, -51.239397390242296], {icon: privicon}).addTo(map);
     marker[2].bindPopup("<b>Colégio Marista Ipanema</b>");
-
-    marker[3] = L.marker([-30.029926034995302, -51.218062404932915], {icon: privicon}).addTo(map);
-    marker[3].bindPopup("<b>Colégio Marista Rosário</b>");
 
     marker[4] = L.marker([-30.07550433423898, -51.202950904704096], {icon: privicon}).addTo(map);
     marker[4].bindPopup("<b>Colégio Marista Assunção</b>");
@@ -159,12 +167,6 @@ function sucesso(position){
     marker[27] = L.marker([-30.014616513871033, -51.20126673678703], {icon: puclicaicon}).addTo(map);
     marker[27].bindPopup("<b>Escola Estadual de Ensino Fundamental Olegário Mariano</b>");
 
-    marker[28] = L.marker([-30.063133001197258, -51.175486999148916], {icon: privicon}).addTo(map);
-    marker[28].bindPopup("<b>Colégio Nossa Senhora do Brasil</b>");
-
-    marker[29] = L.marker([-30.027333850539932, -51.20865192000752], {icon: privicon}).addTo(map);
-    marker[29].bindPopup("<b>Colégio Nossa Senhora do Bom Conselho</b>");
-
     marker[30] = L.marker([-30.02732350017701, -51.21842259982513], {icon: privicon}).addTo(map);
     marker[30].bindPopup("<b>Colégio Marista Rosário</b>");
 
@@ -184,7 +186,7 @@ function sucesso(position){
     marker[35] = L.marker([-30.029035515188745, -51.22442786802855], {icon: ejaicon}).addTo(map);
     marker[35].bindPopup("<b>Colégio AGIR</b>")
 
-    marker[36] = L.marker([position.coords.latitude, position.coords.longitude]).addTo(map);
+    marker[36] = L.marker([position.coords.latitude, position.coords.longitude], {icon: usericon}).addTo(map);
     marker[36].bindPopup("<b>Sua localização</b>").openPopup();
 
 
