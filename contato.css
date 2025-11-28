@@ -2,20 +2,21 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: aliceblue;
     outline: none;
+    padding: 0;
+    margin: 0;
 }
 
 body{
     background-image: linear-gradient(120deg, #2441FF, #FFAE2A);
 }
 
-body div{
+#formulario{
     border-radius: 15px;
     display: block;
     height: 463.5px;
     width: 300px;
     background-color: aliceblue;
     margin: 125px 0px 25px 40%;
-    position: fixed;
 }
 
 div h1{
@@ -58,7 +59,7 @@ div h1{
     color: rgb(97, 97, 97);
 }
 
-button{
+#botao{
     margin-left: 32.5px;
     margin-bottom: 40px;
     width: 235px;
@@ -69,9 +70,29 @@ button{
     font-style: oblique;
 }
 
-button:hover{
+#botao:hover{
     background-image: linear-gradient(120deg, #6276fd, #f9c673);
     border: none;
+}
+
+#botao:active{
+    animation: pulsar 0.1s ease-in-out;
+    background-image: linear-gradient #2235b1, #cf912e;
+}
+
+@keyframes pulsar {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 ul{
@@ -81,7 +102,6 @@ ul{
     height: 100px;
     display: block;
     float: left;
-    position: fixed;
     left: 0;
     bottom: 0;
     color: aliceblue;
@@ -94,4 +114,63 @@ img{
 
 li{
    padding: 5px; 
+   margin-bottom: 10px;
+}
+
+nav {
+    background-color: #2441ff;
+    width: 100%;
+    height: 100px;
+    display:flex;
+    align-content: center;
+    overflow:hidden;
+}
+#iconecomesch{
+    height:70px;
+    width:450px;
+    margin: 10px 0 0 5px;
+}
+.botaonav{
+    height:70px;
+    width:70px;
+    background-color: #2441ff;
+    background-repeat: no-repeat;
+    background-size: 55px 55px;
+    border:none;
+}
+#botaoinicio{
+    background-image: url(CnttImg/inicioicone.png);
+    margin: 18px 0px 0px 300px;
+}
+#botaomapa{
+    background-image: url(CnttImg/mapaicone.png);
+    margin-left:50px;
+}
+#botaocontatos{
+    background-image: url(CnttImg/contatosicone.png);
+    margin-left:50px;
+}
+#botaocadastro{
+    background-color:#ffae2a;
+    background-repeat: no-repeat;
+    border: none;
+    color:white;
+    font-size:20px;
+    width:160px;
+    height:60px;
+    border-radius: 8px;
+    float: right;
+    margin: 18px 0px 0px 60px;
+}
+#botaoinicio:hover{
+    background-image: url(CnttImg/inicioiconehover.png);
+}
+#botaomapa:hover{
+    background-image: url(CnttImg/mapaiconehover.png);
+}
+#botaocontatos:hover{
+    background-image: url(CnttImg/contatosiconehover.png);
+}
+#botaocadastro:hover{
+    background-color:#b87b1a;
 }

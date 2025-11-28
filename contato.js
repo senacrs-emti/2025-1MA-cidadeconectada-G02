@@ -1,4 +1,4 @@
-document.getElementById("button").addEventListener("click", () => {
+document.getElementById("botao").addEventListener("click", () => {
     
     const nome = document.getElementById("text");
     const email = document.getElementById("email");
