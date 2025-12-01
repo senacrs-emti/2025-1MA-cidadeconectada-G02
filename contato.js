@@ -19,13 +19,6 @@ document.getElementById("botao").addEventListener("click", () => {
     }
 });
 
-document.getElementById("whatsapp").addEventListener("click", () => {
-    window.location.href = "https://wa.me/51999995555"; 
-});
-
-document.getElementById("instagram").addEventListener("click", () => {
-    window.location.href = "https://www.instagram.com"; 
-});
 
 document.getElementById("botaoinicio").addEventListener("click", () => {
     window.location.href = "index.html"; 
