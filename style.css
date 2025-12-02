@@ -15,33 +15,25 @@
 footer{
     color: white;
     background: #fdb519 100%;
+    height: 250px;
     width: 100%;
-    height: 140px;
 }
 
-footer ul li{
-    float: left;
-    margin-left: 25px;
-    list-style: none;
-    margin-top: 31px;
-    font-weight: lighter;
-    font-size: 18px;
+#contasgithub1{
+   margin-left:33%;
+   margin-top:15px;
+   float:left;
+   width:40%;
 }
-
-
-footer ul {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    height: 120px;
+h2{
+    margin-top:22px;
+    font-size:20px;
 }
-
-footer ul img{
-    width: auto;
-    height:38px;
-    float: left;
-    margin-right: -15px;
-    margin-left: 15px;
+#contasgithub2{
+    width:30%;
+    margin-left:40%;
+    font-size:15px;
+    list-style-type: circle;
 }
 
 #contatos{
