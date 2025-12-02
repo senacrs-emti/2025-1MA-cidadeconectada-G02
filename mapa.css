@@ -64,7 +64,7 @@ main aside {
     font-family: sans-serif;
 }
 
-main aside img {
+main aside #usericon {
     height: 75px;
     border-radius: 100px;
     margin: 25px;
@@ -104,19 +104,7 @@ main aside hr {
     font-style:oblique;
 }
 
-main aside #fav {
-    width: 83%;
-    height: 7.5%;
-    margin-left: 8.5%;
-    margin-top: 5%;
-    margin-bottom: 11%;
-    border-radius: 7px;
-    font-size: 17px;
-    outline: none;
-    color: #686767;
-}
-
-main aside div {
+#publica {
     width: 33%;
     height: 48px;
     float:left;
@@ -125,15 +113,23 @@ main aside div {
     margin-left: 15.7%;
     border-radius: 7px;
     font-size: 12px;
-}
-
-#publica {
     margin-left: 8.5%;
 }
 
 #publica input {
     margin-top: 16.5px;
     margin-left: 15px;
+}
+
+#particular {
+    width: 33%;
+    height: 48px;
+    float:left;
+    background-color: #ffffff;
+    margin-bottom: 11%;
+    margin-left: 15.7%;
+    border-radius: 7px;
+    font-size: 12px;
 }
 
 #particular input {
@@ -155,19 +151,33 @@ main aside label {
     text-align: center;
     margin-left: 8.5%;
     height: 50px;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
+    border-radius: 7px;
     border-bottom: 1px solid #686767;
 }
 
-#preco {
-    font-size: 17px;
-    color: #686767;
-    width: 83%;
-    text-align: center;
-    margin-left: 8.5%;
-    height: 50px; 
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
-    outline: none;
+main aside ul{
+    margin: auto;
+    padding-left: 200px;
+    padding-top: 50px;
+    list-style: none;
+}
+
+main aside ul li {
+    height: 70px;
+    align-content: center;
+}
+
+main aside ul li img {
+    width: 13%;
+    height: 60px;
+}
+
+span {
+    font-weight: 400;
+    margin: auto;
+    padding-left: 15px;
+    position: absolute;
+    align-self: center;
+    color: #ffffff;
+    font-size: x-large;
 }

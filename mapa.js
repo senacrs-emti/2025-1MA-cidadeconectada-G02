@@ -51,7 +51,7 @@ function sucesso(position){
         popupAnchor:  [12, -20]
     });
 
-    var puclicaicon = L.icon({
+    var publicaicon = L.icon({
         iconUrl: 'img/escola-publi.png',
         shadowUrl: 'img/escola-publi.png',
 
@@ -73,159 +73,301 @@ function sucesso(position){
         popupAnchor:  [12, -20]
     });
 
-    infaticon = L.icon({
-        iconUrl: 'img/daycare.png',
-        shadowUrl: 'img/daycare.png',
-
-        iconSize:     [32,32],
-        shadowSize:   [32, 32],
-        iconAnchor:   [5, 30],
-        shadowAnchor: [5, 30],
-        popupAnchor:  [12, -20]
-    });
-
     const marker = [];
 
     marker[0] = L.marker([-30.035981, -51.170192], {icon: privicon}).addTo(map);
-    marker[0].bindPopup("<b>Unidade principal do Colégio Farroupilha</b>");
+    marker[0].nome = "Unidade principal do Colégio Farroupilha";
+    marker[0].gestao = "privada";
+    marker[0].ensino = ["Infantil", "Fundamental", "Médio"];
+    marker[0].bindPopup("<b>" + marker[0].nome + "</b>");
 
     marker[1] = L.marker([-30.027578031101925, -51.20868042732434], {icon: privicon}).addTo(map);
-    marker[1].bindPopup("<b>Colégio Nossa Senhora do Bom Conselho</b>");
+    marker[1].nome = "Colégio Nossa Senhora do Bom Conselho";
+    marker[1].gestao = "privada";
+    marker[1].ensino = ["Infantil", "Fundamental", "Médio"];
+    marker[1].bindPopup("<b>" + marker[1].nome + "</b>");
 
     marker[2] = L.marker([-30.130351176291644, -51.239397390242296], {icon: privicon}).addTo(map);
-    marker[2].bindPopup("<b>Colégio Marista Ipanema</b>");
+    marker[2].nome = "Colégio Marista Ipanema";
+    marker[2].gestao = "privada";
+    marker[2].ensino = ["Infantil", "Fundamental","Médio"];
+    marker[2].bindPopup("<b>" + marker[2].nome + "</b>");
 
     marker[4] = L.marker([-30.07550433423898, -51.202950904704096], {icon: privicon}).addTo(map);
-    marker[4].bindPopup("<b>Colégio Marista Assunção</b>");
+    marker[4].nome = "Colégio Marista Assunção";
+    marker[4].gestao = "privada";
+    marker[4].ensino = ["Infantil","Fundamental", "Médio"];
+    marker[4].bindPopup("<b>" + marker[4].nome + "</b>");
 
     marker[5] = L.marker([-30.060428089612113, -51.17289151635134], {icon: privicon}).addTo(map);
-    marker[5].bindPopup("<b>Colégio Marista Champagnat</b>");
+    marker[5].nome = "Colégio Marista Champagnat";
+    marker[5].gestao = "privada";
+    marker[5].ensino = ["Infantil", "Fundamental", "Médio"];
+    marker[5].bindPopup("<b>" + marker[5].nome + "</b>");
 
     marker[6] = L.marker([-30.075852582161488, -51.21482929382603], {icon: privicon}).addTo(map);
-    marker[6].bindPopup("<b>Colégio João XXIII</b>");
+    marker[6].nome = "Colégio João XXIII";
+    marker[6].gestao = "privada";
+    marker[6].ensino = ["Infantil", "Fundamental", "Médio"];
+    marker[6].bindPopup("<b>" + marker[6].nome + "</b>");
 
     marker[7] = L.marker([-30.025025, -51.173691], {icon: privicon}).addTo(map);
-    marker[7].bindPopup("<b>Colégio Monteiro Lobato</b>");
+    marker[7].nome = "Colégio Monteiro Lobato";
+    marker[7].gestao = "privada";
+    marker[7].ensino = ["Infantil", "Fundamental", "Médio"];
+    marker[7].bindPopup("<b>" + marker[7].nome + "</b>");
 
     marker[8] = L.marker([-30.025027793094065, -51.19176693723678], {icon: privicon}).addTo(map);
-    marker[8].bindPopup("<b>Colégio Lumiar Porto Alegre</b>");
+    marker[8].nome = "Colégio Lumiar Porto Alegre";
+    marker[8].gestao = "privada";
+    marker[8].ensino = ["Fundamental", "Médio"];
+    marker[8].bindPopup("<b>" + marker[8].nome + "</b>");
 
     marker[9] = L.marker([-30.030212, -51.176788], {icon: privicon}).addTo(map);
-    marker[9].bindPopup("<b>Colégio Anchieta</b>");
+    marker[9].nome = "Colégio Anchieta";
+    marker[9].gestao = "privada";
+    marker[9].ensino = ["Educação Infantil", "Ensino Fundamental", "Médio"];
+    marker[9].bindPopup("<b>" + marker[9].nome + "</b>");
 
     marker[10] = L.marker([-30.03982804531042, -51.19923470541426], {icon: privicon}).addTo(map);
-    marker[10].bindPopup("<b>Colégio Israelita Brasileiro</b>");
+    marker[10].nome = "Colégio Israelita Brasileiro";
+    marker[10].gestao = "privada";
+    marker[10].ensino = ["Infantil", "Fundamental","Médio"];
+    marker[10].bindPopup("<b>" + marker[10].nome + "</b>");
 
     marker[11] = L.marker([-30.033715891513584, -51.19714750470616], {icon: privicon}).addTo(map);
-    marker[11].bindPopup("<b>Colégio Leonardo da Vinci - Alfa</b>");
+    marker[11].nome = "Colégio Leonardo da Vinci - Alfa";
+    marker[11].gestao = "privada";
+    marker[11].ensino = ["Infantil", "Fundamental", "Médio"];
+    marker[11].bindPopup("<b>" + marker[11].nome + "</b>");
 
     marker[12] = L.marker([-30.095101393775074, -51.24571114014527], {icon: privicon}).addTo(map);
-    marker[12].bindPopup("<b>Colégio Leonardo da Vinci - Beta</b>");
+    marker[12].nome = "Colégio Leonardo da Vinci - Beta";
+    marker[12].gestao = "privada";
+    marker[12].ensino = ["Infantil", "Fundamental", "Médio"];
+    marker[12].bindPopup("<b>" + marker[12].nome + "</b>");
 
     marker[13] = L.marker([-30.016990906911044, -51.19241238751823], {icon: privicon}).addTo(map);
-    marker[13].bindPopup("<b>Colégio João Paulo - Higienópolis</b>");
+    marker[13].nome = "Colégio João Paulo - Higienópolis";
+    marker[13].gestao = "privada";
+    marker[13].ensino = ["Infantil", "Fundamental", "Médio"];
+    marker[13].bindPopup("<b>" + marker[13].nome + "</b>");
 
     marker[14] = L.marker([-30.02429043748329, -51.145832405268635], {icon: privicon}).addTo(map);
-    marker[14].bindPopup("<b>Colégio Don Luis Guanella</b>");
+    marker[14].nome = "Colégio Don Luis Guanella";
+    marker[14].gestao = "privada";
+    marker[14].ensino = ["Infantil", "Fundamental", "Médio"];
+    marker[14].bindPopup("<b>" + marker[14].nome + "</b>");
 
     marker[15] = L.marker([-30.078146930608455, -51.20842739488664], {icon: privicon}).addTo(map);
-    marker[15].bindPopup("<b>Colégio Universitário</b>");
+    marker[15].nome = "Colégio Universitário";
+    marker[15].gestao = "privada";
+    marker[15].ensino = ["Infantil","Fundamental","Médio"];
+    marker[15].bindPopup("<b>" + marker[15].nome + "</b>");
 
     marker[16] = L.marker([-30.034158845525585, -51.202648956834565], {icon: privicon}).addTo(map);
-    marker[16].bindPopup("<b>Colégio Metodista Americano</b>");
+    marker[16].nome = "Colégio Metodista Americano";
+    marker[16].gestao = "privada";
+    marker[16].ensino = ["Infantil", "Fundamental", "Médio"];
+    marker[16].bindPopup("<b>" + marker[16].nome + "</b>");
 
     marker[17] = L.marker([-30.05531829484836, -51.20198192799818], {icon: privicon}).addTo(map);
-    marker[17].bindPopup("<b>Colégio La Salle Santo Antônio</b>");
+    marker[17].nome = "Colégio La Salle Santo Antônio";
+    marker[17].gestao = "privada";
+    marker[17].ensino = ["Infantil","Fundamental", "Médio"];
+    marker[17].bindPopup("<b>" + marker[17].nome + "</b>");
 
     marker[18] = L.marker([-30.065077586639216, -51.16862741349395], {icon: privicon}).addTo(map);
-    marker[18].bindPopup("<b>Colégio Murialdo</b>");
+    marker[18].nome = "Colégio Murialdo";
+    marker[18].gestao = "privada";
+    marker[18].ensino = ["Infantil","Fundamental","Médio"];
+    marker[18].bindPopup("<b>" + marker[18].nome + "</b>");
 
     marker[19] = L.marker([-30.09755044052236, -51.230043291208986], {icon: privicon}).addTo(map);
-    marker[19].bindPopup("<b>Colégio Santa Teresa de Jesus</b>");
+    marker[19].nome = "Colégio Santa Teresa de Jesus";
+    marker[19].gestao = "privada";
+    marker[19].ensino = ["Infantil", "Fundamental", "Médio"];
+    marker[19].bindPopup("<b>" + marker[19].nome + "</b>");
 
     marker[20] = L.marker([-30.02462385970332, -51.17261233225655], {icon: privicon}).addTo(map);
-    marker[20].bindPopup("<b>Colégio Província de São Pedro</b>");
+    marker[20].nome = "Colégio Província de São Pedro";
+    marker[20].gestao = "privada";
+    marker[20].ensino = ["Infantil", "Fundamental", "Médio"];
+    marker[20].bindPopup("<b>" + marker[20].nome + "</b>");
 
     marker[21] = L.marker([-30.012705770013678, -51.18705195683572], {icon: privicon}).addTo(map);
-    marker[21].bindPopup("<b>Colégio Pastor Dohms - Unidade Higienópolis</b>");
+    marker[21].nome = "Colégio Pastor Dohms - Unidade Higienópolis";
+    marker[21].gestao = "privada";
+    marker[21].ensino = ["Infantil","Fundamental", "Médio"];
+    marker[21].bindPopup("<b>" + marker[21].nome + "</b>");
 
-    marker[22] = L.marker([-30.062395933081596, -51.228201693068655], {icon: puclicaicon}).addTo(map);
-    marker[22].bindPopup("<b>Escola Estadual de Ensino Integral Euclides Da Cunha</b>");
+    marker[22] = L.marker([-30.062395933081596, -51.228201693068655], {icon: publicaicon}).addTo(map);
+    marker[22].nome = "Escola Estadual de Ensino Integral Euclides Da Cunha";
+    marker[22].gestao = "pública";
+    marker[22].ensino = ["Fundamental", "Médio"]; 
+    marker[22].bindPopup("<b>" + marker[22].nome + "</b>");
 
-    marker[23] = L.marker([-30.03867479676886, -51.21349583070713], {icon: puclicaicon}).addTo(map);
-    marker[23].bindPopup("<b>Colégio Militar de Porto Alegre</b>");
+    marker[23] = L.marker([-30.03867479676886, -51.21349583070713], {icon: publicaicon}).addTo(map);
+    marker[23].nome = "Colégio Militar de Porto Alegre";
+    marker[23].gestao = "pública";
+    marker[23].ensino = ["Fundamental", "Médio"]; 
+    marker[23].bindPopup("<b>" + marker[23].nome + "</b>");
 
     marker[24] = L.marker([-30.069910023976536, -51.18620233078537], {icon: privicon}).addTo(map);
-    marker[24].bindPopup("<b>Colégio Tiradentes da Brigada Militar de Porto Alegre</b>");
+    marker[24].nome = "Colégio Tiradentes da Brigada Militar de Porto Alegre";
+    marker[24].gestao = "privada";
+    marker[24].ensino = ["Infantil", "Fundamental", "Médio"];
+    marker[24].bindPopup("<b>" + marker[24].nome + "</b>");
 
-    marker[25] = L.marker([-30.037527181958993, -51.23106470061848], {icon: puclicaicon}).addTo(map);
-    marker[25].bindPopup("<b>Escola Técnica Estadual Parobé</b>");
+    marker[25] = L.marker([-30.037527181958993, -51.23106470061848], {icon: tecicon}).addTo(map);
+    marker[25].nome = "Escola Técnica Estadual Parobé";
+    marker[25].gestao = "pública";
+    marker[25].ensino = ["Médio", "Técnico"];
+    marker[25].bindPopup("<b>" + marker[25].nome + "</b>");
 
-    marker[26] = L.marker([-30.045531960545542, -51.21219717969967], {icon: puclicaicon}).addTo(map);
-    marker[26].bindPopup("<b>Escola Estadual de Ensino Fundamental Ildefonso Gomes</b>");
+    marker[26] = L.marker([-30.045531960545542, -51.21219717969967], {icon: publicaicon}).addTo(map);
+    marker[26].nome = "Escola Estadual de Ensino Fundamental Ildefonso Gomes";
+    marker[26].gestao = "pública";
+    marker[26].ensino = ["Fundamental"];
+    marker[26].bindPopup("<b>" + marker[26].nome + "</b>");
 
-    marker[27] = L.marker([-30.014616513871033, -51.20126673678703], {icon: puclicaicon}).addTo(map);
-    marker[27].bindPopup("<b>Escola Estadual de Ensino Fundamental Olegário Mariano</b>");
+    marker[27] = L.marker([-30.014616513871033, -51.20126673678703], {icon: publicaicon}).addTo(map);
+    marker[27].nome = "Escola Estadual de Ensino Fundamental Olegário Mariano";
+    marker[27].gestao = "pública";
+    marker[27].ensino = ["Fundamental"];
+    marker[27].bindPopup("<b>" + marker[27].nome + "</b>");
 
     marker[30] = L.marker([-30.02732350017701, -51.21842259982513], {icon: privicon}).addTo(map);
-    marker[30].bindPopup("<b>Colégio Marista Rosário</b>");
+    marker[30].nome = "Colégio Marista Rosário";
+    marker[30].gestao = "privada";
+    marker[30].ensino = ["Infantil", "Fundamental", "Médio"];
+    marker[30].bindPopup("<b>" + marker[30].nome + "</b>");
 
     marker[31] = L.marker([-30.041589110753772, -51.19736625652408], {icon: privicon}).addTo(map);
-    marker[31].bindPopup("<b>Colégio Vicentino Santa Cecília</b>");
+    marker[31].nome = "Colégio Vicentino Santa Cecília";
+    marker[31].gestao = "privada";
+    marker[31].ensino = ["Infantil", "Fundamental", "Médio"];
+    marker[31].bindPopup("<b>" + marker[31].nome + "</b>");
 
     marker[32] = L.marker([-30.063133001197258, -51.175486999148916], {icon: privicon}).addTo(map);
-    marker[32].bindPopup("<b>Colégio Nossa Senhora do Brasil</b>");
+    marker[32].nome = "Colégio Nossa Senhora do Brasil";
+    marker[32].gestao = "privada";
+    marker[32].ensino = ["Infantil","Fundamental", "Médio"];
+    marker[32].bindPopup("<b>" + marker[32].nome + "</b>");
 
-    marker[33] = L.marker([-30.033219233660315, -51.21733675934237], {icon: puclicaicon}).addTo(map);
-    marker[33].bindPopup("<b>Instituto de Educação General Flores da Cunha</b>");
-
+    marker[33] = L.marker([-30.033219233660315, -51.21733675934237], {icon: publicaicon}).addTo(map);
+    marker[33].nome = "Instituto de Educação General Flores da Cunha";
+    marker[33].gestao = "pública";
+    marker[33].ensino = ["Fundamental", "Médio"];
+    marker[33].bindPopup("<b>" + marker[33].nome + "</b>");
 
     marker[34] = L.marker([-30.026317061493387, -51.21209834262374], {icon: tecicon}).addTo(map);
-    marker[34].bindPopup("<b>Escola de Ensino Médio Senac Distrito Criativo</b> <br> <spam>Particular</spam>").openPopup();
+    marker[34].nome = "Escola de Ensino Médio Senac Distrito Criativo";
+    marker[34].gestao = "privada";
+    marker[34].ensino = ["Médio", "Técnico"];
+    marker[34].bindPopup("<b>" + marker[34].nome + "</b>");
 
     marker[35] = L.marker([-30.029035515188745, -51.22442786802855], {icon: ejaicon}).addTo(map);
-    marker[35].bindPopup("<b>Colégio AGIR</b>")
+    marker[35].nome = "Colégio AGIR";
+    marker[35].gestao = "privada";
+    marker[35].ensino = ["EJA", "Fundamental", "Médio"];
+    marker[35].bindPopup("<b>" + marker[35].nome + "</b>");
+
+
 
     marker[36] = L.marker([position.coords.latitude, position.coords.longitude], {icon: usericon}).addTo(map);
     marker[36].bindPopup("<b>Sua localização</b>").openPopup();
 
+    document.getElementById('searchbar').addEventListener("keyup", function(e){
+        if (e.key === "Enter") {
 
+            const texto = this.value.toLowerCase();
+            if(!texto) return;
+
+            let encontrado = false;
+
+            for (let i = 0; i < (marker.length || 0); i++) {
+                if (!marker[i]) continue;
+                if (marker[i].nome && marker[i].nome.toLowerCase().includes(texto)) {
+                    map.setView(marker[i].getLatLng(), 17);
+                    marker[i].openPopup();
+                    encontrado = true;
+                    break;
+                }
+            }
+
+            if (!encontrado) {
+                alert("Escola não encontrada!");
+            }
+        }
+    });
+
+    const checkPublica = document.getElementById('buttonpubli')
+    const checkPrivada = document.getElementById('buttonpriv')
+
+    checkPublica.addEventListener("change", AutualizarFiltro);
+    checkPrivada.addEventListener("change", AutualizarFiltro);
+
+    function AutualizarFiltro() {
+        if (this === checkPublica&&checkPublica.checked) {
+            checkPrivada.checked = false;
+        }
+        if (this === checkPrivada&&checkPrivada.checked) {
+            checkPublica.checked = false;
+        }
+
+        let tipo = null;
+
+        if (checkPublica.checked) tipo = "pública";
+        if (checkPrivada.checked) tipo = "privada";
+
+        filtrarPorGestao(tipo);
+    }
+
+    function filtrarPorGestao(tipo) {
+
+        for (let i = 0; i < marker.length; i++) {
+            if (!marker[i]) continue;
+
+            if (tipo === null) {
+                map.addLayer(marker[i]);
+                continue;
+            }
+
+            if (marker[i].gestao === tipo) {
+                map.addLayer(marker[i]);
+            } else {
+                map.removeLayer(marker[i]);
+            }
+        }
+    }
+
+    const selectEnsino = document.getElementById('nivelensino');
+
+    selectEnsino.addEventListener("change", () => {
+        filtrarPorNivel(selectEnsino.value);
+    });
+
+    function filtrarPorNivel(nivel) {
+
+        if (nivel === "") {
+            for (let i = 0; i < marker.length; i++) {
+                if (marker[i]) map.addLayer(marker[i]);
+            }
+            return;
+        }
+
+        for (i = 0; i < marker.length; i++) {
+
+            if (!marker[i]) continue;
+
+            if (marker[i].ensino.includes(nivel)) {
+                map.addLayer(marker[i]);
+            } else {
+                map.removeLayer(marker[i]);
+            }
+        }
+    }
 }
 
 navigator.geolocation.getCurrentPosition(sucesso);
-
-const escolasnome = []
-
-escolasnome[0] = "Unidade principal do Colégio Farroupilha";
-escolasnome[1] = "Colégio Nossa Senhora do Bom Conselho";
-escolasnome[2] = "Colégio Marista Ipanema";
-escolasnome[3] = "Colégio Marista Assunção";
-escolasnome[4] = "Colégio Marista Champagnat"
-escolasnome[5] = "Colégio João XXIII";
-escolasnome[6] = "Colégio Monteiro Lobato";
-escolasnome[7] = "Colégio Lumiar Porto Alegre";
-escolasnome[8] = "Colégio Anchieta";
-escolasnome[9] = "Colégio Israelita Brasileiro";
-escolasnome[10] = "Colégio Leonardo da Vinci - Alfa";
-escolasnome[11] = "Colégio Leonardo da Vinci - Beta";
-escolasnome[12] = "Colégio João Paulo - Higienópolis";
-escolasnome[13] = "Colégio Don Luis Guanella";
-escolasnome[14] = "Colégio Universitário";
-escolasnome[15] = "Colégio Metodista Americano";
-escolasnome[16] = "Colégio La Salle Santo Antônio";
-escolasnome[17] = "Colégio Murialdo";
-escolasnome[18] = "Colégio Santa Teresa de Jesus";
-escolasnome[19] = "Colégio Província de São Pedro";
-escolasnome[20] = "Colégio Pastor Dohms - Unidade Higienópolis";
-escolasnome[21] = "Escola Estadual de Ensino Integral Euclides Da Cunha";
-escolasnome[22] = "Colégio Militar de Porto Alegre";
-escolasnome[23] = "Colégio Tiradentes da Brigada Militar de Porto Alegre";
-escolasnome[24] = "Escola Técnica Estadual Parobé";
-escolasnome[25] = "Escola Estadual de Ensino Fundamental Ildefonso Gomes";
-escolasnome[26] = "Escola Estadual de Ensino Fundamental Olegário Mariano";
-escolasnome[27] = "Colégio Marista Rosário";
-escolasnome[28] = "Colégio Vicentino Santa Cecília";
-escolasnome[29] = "Colégio Nossa Senhora do Brasil";
-escolasnome[30] = "Instituto de Educação General Flores da Cunha";
-escolasnome[31] = "Escola de Ensino Médio Senac Distrito Criativo";
-escolasnome[32] = "Colégio AGIR";
