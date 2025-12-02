@@ -5,7 +5,7 @@ document.getElementById("botaomapa").addEventListener("click", () => {
     window.location.href = "mapa.html"; 
 });
 document.getElementById("botaocontatos").addEventListener("click", () => {
-    window.location.href = "contatos.html"; 
+    window.location.href = "contato.html"; 
 });
 
 function sucesso(position){

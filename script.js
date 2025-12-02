@@ -19,5 +19,5 @@ document.getElementById("botaomapa").addEventListener("click", () => {
 });
 
 document.getElementById("botaocontatos").addEventListener("click", () => {
-    window.location.href = "contatos.html"; 
+    window.location.href = "contato.html"; 
 });

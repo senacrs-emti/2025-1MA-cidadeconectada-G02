@@ -22,18 +22,40 @@ footer{
 #contasgithub1{
    margin-left:33%;
    margin-top:15px;
-   float:left;
    width:40%;
 }
-h2{
-    margin-top:22px;
-    font-size:20px;
+
+#iconegit {
+    float: left;
+    margin: auto;
+    padding-top: 25px;
+    padding-right: 20px;
 }
+
+#textogithub {
+    margin: auto;
+    padding-top: 50px;
+}
+
 #contasgithub2{
     width:30%;
     margin-left:40%;
     font-size:15px;
     list-style-type: circle;
+}
+
+footer #contasgithub2 li {
+    height: 15px;
+    margin-top: 25px;
+}
+
+footer ul li a {
+    color: #ffffff;
+}
+
+h2{
+    margin-top:6px;
+    font-size:20px;
 }
 
 #contatos{
@@ -82,17 +104,17 @@ nav {
 }
 
 #botaoinicio{
-    background-image: url(imagens/inicioicone.png);
+    background-image: url(CnttImg/inicioicone.png);
     margin: 18px 0px 0px 300px;
 }
 
 #botaomapa{
-    background-image: url(imagens/mapaicone.png);
+    background-image: url(CnttImg/mapaicone.png);
     margin-left:50px;
 }
 
 #botaocontatos{
-    background-image: url(imagens/contatosicone.png);
+    background-image: url(CnttImg/contatosicone.png);
     margin-left:50px;
 }
 
@@ -109,15 +131,15 @@ nav {
 }
 
 #botaoinicio:hover{
-    background-image: url(imagens/inicioiconehover.png);
+    background-image: url(CnttImg/inicioiconehover.png);
 
 }
 #botaomapa:hover{
-    background-image: url(imagens/mapaiconehover.png);
+    background-image: url(CnttImg/mapaiconehover.png);
 }
 
 #botaocontatos:hover{
-    background-image: url(imagens/contatosiconehover.png);
+    background-image: url(CnttImg/contatosiconehover.png);
 }
 
 #botaocadastro:hover{
