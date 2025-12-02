@@ -18,12 +18,16 @@ footer{
     height: 250px;
     width: 100%;
 }
-
 #contasgithub1{
    margin-left:33%;
    margin-top:15px;
    float:left;
-   width:40%;
+   width:60%;
+}
+#contasgithub1 img{
+    width:64px;
+    float:left;
+    margin-right:10px;
 }
 h2{
     margin-top:22px;
@@ -32,10 +36,15 @@ h2{
 #contasgithub2{
     width:30%;
     margin-left:40%;
-    font-size:15px;
     list-style-type: circle;
 }
-
+#contasgithub2 li{
+    margin-bottom:20px;
+}
+#contasgithub2 a{
+    color:white;
+    font-size:17px;
+}
 #contatos{
     list-style: disc;
 }
