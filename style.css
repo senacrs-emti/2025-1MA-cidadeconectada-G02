@@ -11,6 +11,9 @@
     background-image: url("img/horizontal-Quais-as-melhores-atividades-de-recepcao-aos-alunos-1024x536.jpg");
 }
 
+a {
+    text-decoration: none;
+}
 
 footer{
     color: white;
@@ -77,6 +80,10 @@ div a button{
     display: flex;
     background-color: white;
     padding-bottom: 7%;
+}
+
+#buttonacesso {
+    cursor: pointer;
 }
 
 nav {

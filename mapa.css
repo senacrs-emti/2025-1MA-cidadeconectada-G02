@@ -157,19 +157,20 @@ main aside label {
 
 main aside ul{
     margin: auto;
-    padding-left: 200px;
-    padding-top: 50px;
+    padding-left: 150px;
+    padding-top: 20px;
     list-style: none;
 }
 
 main aside ul li {
-    height: 70px;
+    height: 30px;
     align-content: center;
+    margin-top: 5px;
 }
 
 main aside ul li img {
     width: 13%;
-    height: 60px;
+    height: 30px;
 }
 
 span {
@@ -179,5 +180,5 @@ span {
     position: absolute;
     align-self: center;
     color: #ffffff;
-    font-size: x-large;
+    font-size: 10px;
 }
