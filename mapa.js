@@ -279,8 +279,185 @@ marker[25].bindPopup("<b>" + marker[25].nome + "</b>" + "<br>" + "<spam>"+ marke
     marker[36].ensino = ["Infantil", "Fundamental"];
     marker[36].bindPopup("<b>" + marker[36].nome + "</b>" + "<br>" + "<spam>"+ marker[36].gestao +"</spam>" + "<br>" + "<spam>" + marker[36].ensino + "</spam>");
 
-    marker[37] = L.marker([position.coords.latitude, position.coords.longitude], {icon: usericon}).addTo(map);
-    marker[37].bindPopup("<b>Sua localização</b>").openPopup();
+    marker[37] = L.marker([-30.024512389991926, -51.17327752018489], {icon: privicon}).addTo(map);
+    marker[37].nome = "COLEGIO PROVINCIA DE SAO PEDRO";
+    marker[37].gestao = "Particular";
+    marker[37].ensino = ["Educação Infantil", "Ensino Fundamental", "Ensino Médio"];
+    marker[37].contato = "(51) 33282810";
+    marker[37].bindPopup(
+    "<b>" + marker[37].nome + "</b>"
+    + "<br>" + "<spam>" + marker[37].gestao + "</spam>"
+    + "<br>" + "<spam>" + marker[37].ensino + "</spam>"
+    + "<br>" + "Contato: " + marker[37].contato
+    );
+
+
+    marker[38] = L.marker([-30.023609333589146, -51.173789189493355], {icon: privicon}).addTo(map);
+    marker[38].nome = "ESC EDUC INF JANELINHA";
+    marker[38].gestao = "Particular";
+    marker[38].ensino = ["Educação Infantil"];
+    marker[38].contato = "(51) 33339395";
+    marker[38].bindPopup(
+    "<b>" + marker[38].nome + "</b>"
+    + "<br>" + "<spam>" + marker[38].gestao + "</spam>"
+    + "<br>" + "<spam>" + marker[38].ensino + "</spam>"
+    + "<br>" + "Contato: " + marker[38].contato
+    );
+
+        marker[39] = L.marker([-30.016722957269298, -51.20616657785812], {icon: privicon}).addTo(map);
+    marker[39].nome = "COLEGIO MARISTA SAO PEDRO";
+    marker[39].gestao = "Particular";
+    marker[39].ensino = ["Educação Infantil", "Ensino Fundamental", "Ensino Médio"];
+    marker[39].contato = "(51) 32908500";
+    marker[39].bindPopup(
+        "<b>" + marker[39].nome + "</b>"
+        + "<br>" + "<spam>" + marker[39].gestao + "</spam>"
+        + "<br>" + "<spam>" + marker[39].ensino + "</spam>"
+        + "<br>" + "Contato: " + marker[39].contato
+    );
+
+    marker[40] = L.marker([-30.036536026662517, -51.22159228940956], {icon: privicon}).addTo(map);
+    marker[40].nome = "CENTRO INFANTIL TURMA DO GIZ DE CERA";
+    marker[40].gestao = "Particular";
+    marker[40].ensino = ["Educação Infantil"];
+    marker[40].contato = "(51) 32214462";
+    marker[40].bindPopup("<b>" + marker[40].nome + "</b>"
+    + "<br><spam>" + marker[40].gestao + "</spam>"
+    + "<br><spam>" + marker[40].ensino + "</spam>"
+    + "<br>Contato: " + marker[40].contato);
+
+    marker[41] = L.marker([-30.02906089903837, -51.20897624708305], {icon: privicon}).addTo(map);
+    marker[41].nome = "COLEGIO UNIFICADO RAMIRO";
+    marker[41].gestao = "Particular";
+    marker[41].ensino = ["Ensino Médio"];
+    marker[41].contato = "(51) 30921640";
+    marker[41].bindPopup("<b>" + marker[41].nome + "</b>"
+    + "<br><spam>" + marker[41].gestao + "</spam>"
+    + "<br><spam>" + marker[41].ensino + "</spam>"
+    + "<br>Contato: " + marker[41].contato);
+
+    marker[42] = L.marker([-30.032067979000413, -51.2294093605733], {icon: tecicon}).addTo(map);
+    marker[42].nome = "ESCOLA TECNICA FACTUM";
+    marker[42].gestao = "Particular";
+    marker[42].ensino = ["Educação Profissional"];
+    marker[42].contato = "(Não documentado)";
+    marker[42].bindPopup("<b>" + marker[42].nome + "</b>"
+    + "<br><spam>" + marker[42].gestao + "</spam>"
+    + "<br><spam>" + marker[42].ensino + "</spam>"
+    + "<br>Contato: " + marker[42].contato);
+
+    marker[43] = L.marker([-29.99923656832436, -51.18805717406484], {icon: tecicon}).addTo(map);
+    marker[43].nome = "ESC EDUC PROF FLIGHT";
+    marker[43].gestao = "Particular";
+    marker[43].ensino = ["Educação Profissional"];
+    marker[43].contato = "(51) 33252114";
+    marker[43].bindPopup("<b>" + marker[43].nome + "</b>"
+    + "<br><spam>" + marker[43].gestao + "</spam>"
+    + "<br><spam>" + marker[43].ensino + "</spam>"
+    + "<br>Contato: " + marker[43].contato);
+
+    marker[44] = L.marker([-30.029410625973107, -51.18926011824632], {icon: privicon}).addTo(map);
+    marker[44].nome = "ESCOLA EDUCACAO INFANTIL ESPACO FELIZ LTDA-ME";
+    marker[44].gestao = "Particular";
+    marker[44].ensino = ["Educação Infantil"];
+    marker[44].contato = "(51) 30223239";
+    marker[44].bindPopup("<b>" + marker[44].nome + "</b>"
+    + "<br><spam>" + marker[44].gestao + "</spam>"
+    + "<br><spam>" + marker[44].ensino + "</spam>"
+    + "<br>Contato: " + marker[44].contato);
+
+    marker[45] = L.marker([-30.027495775431248, -51.19916978755462], {icon: publicaicon}).addTo(map);
+    marker[45].nome = "ESC EST ENS FUN URUGUAI";
+    marker[45].gestao = "Pública";
+    marker[45].ensino = ["Ensino Fundamental"];
+    marker[45].contato = "(51) 33322253";
+    marker[45].bindPopup("<b>" + marker[45].nome + "</b>"
+    + "<br><spam>" + marker[45].gestao + "</spam>"
+    + "<br><spam>" + marker[45].ensino + "</spam>"
+    + "<br>Contato: " + marker[45].contato);
+
+    marker[46] = L.marker([-30.036631814845794, -51.20899943173663], {icon: ejaicon}).addTo(map);
+    marker[46].nome = "CMET PAULO FREIRE";
+    marker[46].gestao = "Pública";
+    marker[46].ensino = ["Educação de Jovens Adultos"];
+    marker[46].contato = "(51) 32250804";
+    marker[46].bindPopup("<b>" + marker[46].nome + "</b>"
+    + "<br><spam>" + marker[46].gestao + "</spam>"
+    + "<br><spam>" + marker[46].ensino + "</spam>"
+    + "<br>Contato: " + marker[46].contato);
+
+    marker[47] = L.marker([-30.048095623255225, -51.21151846057288], {icon: publicaicon}).addTo(map);
+    marker[47].nome = "COL ESTADUAL INACIO MONTANHA";
+    marker[47].gestao = "Pública";
+    marker[47].ensino = ["Ensino Médio"];
+    marker[47].contato = "(51) 32231942";
+    marker[47].bindPopup("<b>" + marker[47].nome + "</b>"
+    + "<br><spam>" + marker[47].gestao + "</spam>"
+    + "<br><spam>" + marker[47].ensino + "</spam>"
+    + "<br>Contato: " + marker[47].contato);
+
+    marker[48] = L.marker([-30.05306759470966, -51.21917608755357], {icon: publicaicon}).addTo(map);
+    marker[48].nome = "ESC EST ENS FUN WILLIAM RICHARD SCHISLER";
+    marker[48].gestao = "Pública";
+    marker[48].ensino = ["Ensino Fundamental"];
+    marker[48].contato = "(51) 32337511";
+    marker[48].bindPopup("<b>" + marker[48].nome + "</b>"
+    + "<br><spam>" + marker[48].gestao + "</spam>"
+    + "<br><spam>" + marker[48].ensino + "</spam>"
+    + "<br>Contato: " + marker[48].contato);
+
+    marker[49] = L.marker([-30.06273975052619, -51.21726027591813], {icon: publicaicon}).addTo(map);
+    marker[49].nome = "COL ESTADUAL GENERAL ALVARO ALVES DA SILVA BRAGA";
+    marker[49].gestao = "Pública";
+    marker[49].ensino = ["Ensino Médio", "Educação de Jovens Adultos"];
+    marker[49].contato = "(51) 32329138";
+    marker[49].bindPopup("<b>" + marker[49].nome + "</b>"
+    + "<br><spam>" + marker[49].gestao + "</spam>"
+    + "<br><spam>" + marker[49].ensino + "</spam>"
+    + "<br>Contato: " + marker[49].contato);
+
+    marker[50] = L.marker([-30.024687914238175, -51.18840981639108], {icon: publicaicon}).addTo(map);
+    marker[50].nome = "ESC EST ENS FUN VISCONDE DE PELOTAS";
+    marker[50].gestao = "Pública";
+    marker[50].ensino = ["Ensino Fundamental", "Educação de Jovens Adultos"];
+    marker[50].contato = "(51) 33321238";
+    marker[50].bindPopup("<b>" + marker[50].nome + "</b>"
+    + "<br><spam>" + marker[50].gestao + "</spam>"
+    + "<br><spam>" + marker[50].ensino + "</spam>"
+    + "<br>Contato: " + marker[50].contato);
+
+    marker[51] = L.marker([-30.03417819847357, -51.211154458717665], {icon: privicon}).addTo(map);
+    marker[51].nome = "ESC ENS FUND CENTRO INTEGRADO DE DESENVOLVIMENTO";
+    marker[51].gestao = "Particular";
+    marker[51].ensino = ["Educação Infantil", "Ensino Fundamental"];
+    marker[51].contato = "(51) 33112789";
+    marker[51].bindPopup("<b>" + marker[51].nome + "</b>"
+    + "<br><spam>" + marker[51].gestao + "</spam>"
+    + "<br><spam>" + marker[51].ensino + "</spam>"
+    + "<br>Contato: " + marker[51].contato);
+
+    marker[52] = L.marker([-30.034224639676452, -51.211143729881165], {icon: privicon}).addTo(map);
+    marker[52].nome = "COLEGIO ANCHIETA";
+    marker[52].gestao = "Privada";
+    marker[52].ensino = ["Educação Infantil", "Ensino Fundamental", "Ensino Médio"];
+    marker[52].contato = "(51) 33826000";
+    marker[52].bindPopup("<b>" + marker[52].nome + "</b>"
+    + "<br><spam>" + marker[52].gestao + "</spam>"
+    + "<br><spam>" + marker[52].ensino + "</spam>"
+    + "<br>Contato: " + marker[52].contato);
+
+    marker[53] = L.marker([-30.036613238818493, -51.20901016057315], {icon: ejaicon}).addTo(map);
+    marker[53].nome = "CMET PAULO FREIRE";
+    marker[53].gestao = "Pública";
+    marker[53].ensino = ["Educação de Jovens Adultos"];
+    marker[53].contato = "(51) 32250804";
+    marker[53].bindPopup("<b>" + marker[53].nome + "</b>"
+    + "<br><spam>" + marker[53].gestao + "</spam>"
+    + "<br><spam>" + marker[53].ensino + "</spam>"
+    + "<br>Contato: " + marker[53].contato);
+    
+    marker[54] = L.marker([position.coords.latitude, position.coords.longitude], {icon: usericon}).addTo(map);
+    marker[54].bindPopup("<b>Sua localização</b>").openPopup();
 
     document.getElementById('searchbar').addEventListener("keyup", function(e){
         if (e.key === "Enter") {
