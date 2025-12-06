@@ -162,7 +162,7 @@ function sucesso(position){
     marker[15] = L.marker([-30.078146930608455, -51.20842739488664], {icon: privicon}).addTo(map);
     marker[15].nome = "Colégio Universitário";
     marker[15].gestao = "privada";
-    marker[15].ensino = ["Infantil","Fundamental","Médio"];
+    marker[15].ensino = ["Infantil","Fundamental","Médio", "EJA", "Profissional "];
     marker[15].bindPopup("<b>" + marker[15].nome + "</b>" + "<br>" + "<spam>"+ marker[15].gestao +"</spam>" + "<br>" + "<spam>" + marker[15].ensino + "</spam>");
 
     marker[16] = L.marker([-30.034158845525585, -51.202648956834565], {icon: privicon}).addTo(map);
@@ -222,8 +222,8 @@ function sucesso(position){
     marker[25] = L.marker([-30.037527181958993, -51.23106470061848], {icon: tecicon}).addTo(map);
     marker[25].nome = "Escola Técnica Estadual Parobé";
     marker[25].gestao = "pública";
-    marker[25].ensino = ["Médio", "Técnico"];
-marker[25].bindPopup("<b>" + marker[25].nome + "</b>" + "<br>" + "<spam>"+ marker[25].gestao +"</spam>" + "<br>" + "<spam>" + marker[25].ensino + "</spam>");
+    marker[25].ensino = ["Médio", "Profissional"];
+    marker[25].bindPopup("<b>" + marker[25].nome + "</b>" + "<br>" + "<spam>"+ marker[25].gestao +"</spam>" + "<br>" + "<spam>" + marker[25].ensino + "</spam>");
 
     marker[26] = L.marker([-30.045531960545542, -51.21219717969967], {icon: publicaicon}).addTo(map);
     marker[26].nome = "Escola Estadual de Ensino Fundamental Ildefonso Gomes";
@@ -255,16 +255,16 @@ marker[25].bindPopup("<b>" + marker[25].nome + "</b>" + "<br>" + "<spam>"+ marke
     marker[32].ensino = ["Infantil","Fundamental", "Médio"];
     marker[32].bindPopup("<b>" + marker[32].nome + "</b>" + "<br>" + "<spam>"+ marker[32].gestao +"</spam>" + "<br>" + "<spam>" + marker[32].ensino + "</spam>");
 
-    marker[33] = L.marker([-30.033219233660315, -51.21733675934237], {icon: publicaicon}).addTo(map);
+    marker[33] = L.marker([-30.033219233660315, -51.21733675934237], {icon: ejaicon}).addTo(map);
     marker[33].nome = "Instituto de Educação General Flores da Cunha";
     marker[33].gestao = "pública";
-    marker[33].ensino = ["Fundamental", "Médio"];
+    marker[33].ensino = ["Fundamental", "Médio", "EJA", "Infantil"];
     marker[33].bindPopup("<b>" + marker[33].nome + "</b>" + "<br>" + "<spam>"+ marker[33].gestao +"</spam>" + "<br>" + "<spam>" + marker[33].ensino + "</spam>");
 
     marker[34] = L.marker([-30.026317061493387, -51.21209834262374], {icon: tecicon}).addTo(map);
     marker[34].nome = "Escola de Ensino Médio Senac Distrito Criativo";
     marker[34].gestao = "privada";
-    marker[34].ensino = ["Médio", "Técnico"];
+    marker[34].ensino = ["Médio", "Profissional"];
     marker[34].bindPopup("<b>" + marker[34].nome + "</b>" + "<br>" + "<spam>"+ marker[34].gestao +"</spam>" + "<br>" + "<spam>" + marker[34].ensino + "</spam");
 
     marker[35] = L.marker([-30.029035515188745, -51.22442786802855], {icon: ejaicon}).addTo(map);
