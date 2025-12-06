@@ -11,8 +11,11 @@
     background-image: url("img/horizontal-Quais-as-melhores-atividades-de-recepcao-aos-alunos-1024x536.jpg");
 }
 
+
+
 a {
     text-decoration: none;
+    color: #515151;
 }
 
 footer{
